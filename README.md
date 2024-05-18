@@ -48,7 +48,9 @@ The script automates the following actions:
     'use strict';
 
     const taskAnswers = {
+        "View and Like Ragnarok: Monster World's Trailer": "25 ",
         "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
+        "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
         "Ragmon Lore I": "Novice ",
         "Ragmon Lore II": "lightening bolt ",
         "Ragmon Lore III": "magician ",
@@ -79,6 +81,7 @@ The script automates the following actions:
 
             // Fill the tweet URL input
             tweetURLInput.value = tweetURL;
+            setTimeout(clickSubmitButton, 5000);
         }
     }
 
@@ -87,7 +90,7 @@ The script automates the following actions:
         // Find the buttons with the specified classes
         const backButton1 = document.querySelector('button.chakra-button.css-lb13n9');
         const backButton2 = document.querySelector('button.chakra-button.css-y9uut2');
-        const backButton3 = document.querySelector('button.chakra-button.css-1fz9kzx');
+        const backButton3 = document.querySelector('button.chakra-button.css-lo5yay');
 
         // Check if any of the buttons exist and if their inner text is "Back to Quests", then click on it
         if (backButton1 && backButton1.textContent.trim() === "Back to Quests") {
@@ -136,17 +139,17 @@ The script automates the following actions:
         }
     }
 
-    function clickSubmitButton() {
+//    function clickSubmitButton() {
         // Find the button with the text "Submit"
-        const SubmitButton = document.querySelector('button.chakra-button.css-lb13n9');
+//        const SubmitButton = document.querySelector('button.chakra-button.css-lb13n9');
 
         // If the button exists and its inner text is "Submit", click on it
-        if (SubmitButton && SubmitButton.textContent.trim() === "Submit") {
-            console.log('Clicking on "Submit" button...');
-            SubmitButton.removeAttribute('disabled');
-            SubmitButton.click();
-        }
-    }
+//        if (SubmitButton && SubmitButton.textContent.trim() === "Submit") {
+//            console.log('Clicking on "Submit" button...');
+//            SubmitButton.removeAttribute('disabled');
+//            SubmitButton.click();
+//        }
+//    }
 
 
 
@@ -163,7 +166,7 @@ The script automates the following actions:
                 if (answerInput) {
                     console.log(`Filling answer for ${taskTitle}: ${answer}`);
                     answerInput.value = answer;
-                    clickSubmitButton();
+                    setTimeout(clickSubmitButton, 4000);
                 } else {
                     console.log('Input field not found');
                 }
@@ -176,7 +179,6 @@ The script automates the following actions:
 
     // Run the functions initially
     fillTweetURLInput();
-    clickSubmitButton();
     clickBackToQuestsButton();
     clickClaimButton();
     headToXQuest();
@@ -185,7 +187,6 @@ The script automates the following actions:
     // Check for the buttons every 2 seconds and click on them if they appear
     setInterval(() => {
         fillTweetURLInput();
-        clickSubmitButton()
         clickBackToQuestsButton();
         clickClaimButton();
         headToXQuest();
