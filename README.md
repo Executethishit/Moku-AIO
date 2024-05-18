@@ -192,4 +192,5 @@ The script automates the following actions:
         headToXQuest();
         handleRagmonLoreTasks();
     }, 1000);
+    console.log('Join Discord: https://discord.gg/mmW2RsrCWF');
 })();
