@@ -2,7 +2,7 @@
 
 ## Description
 
-MOKU AIO is a userscript designed to automate specific actions on a web page, such as filling in tweet URLs, clicking various buttons, and handling interactions for quests. No more unnecessary clicks or popups!
+MOKU AIO is a userscript designed to automate specific actions on [Moku](https://hq.moku.gg/), such as filling in tweet URLs, clicking various buttons, and handling interactions for quests. No more unnecessary clicks or popups!
 
 ## Installation
 
