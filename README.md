@@ -1,4 +1,4 @@
-# MOKU AIO Script Join [Discord](https://www.discord.gg/ukx23R9bqC)
+# MOKU AIO Script. Join [Discord](https://www.discord.gg/ukx23R9bqC)
 
 ## Description
 
