@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MOKU AOI
 // @namespace    http://tampermonkey.net/
-// @version      0.15.8
+// @version      0.15.9
 // @description  try to take over the world!
 // @author       Trojan10
 // @match        *://*/*
@@ -10,14 +10,13 @@
 // ==/UserScript==
 
 
-
-
-
-
 (function() {
     'use strict';
 
     const taskAnswers = {
+        "View and Like Ragnarok: Monster World's Trailer": "25 ",
+        "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
+        "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
         "Ragmon Lore I": "Novice ",
         "Ragmon Lore II": "lightening bolt ",
         "Ragmon Lore III": "magician ",
@@ -48,6 +47,7 @@
 
             // Fill the tweet URL input
             tweetURLInput.value = tweetURL;
+            setTimeout(clickSubmitButton, 5000);
         }
     }
 
@@ -56,7 +56,7 @@
         // Find the buttons with the specified classes
         const backButton1 = document.querySelector('button.chakra-button.css-lb13n9');
         const backButton2 = document.querySelector('button.chakra-button.css-y9uut2');
-        const backButton3 = document.querySelector('button.chakra-button.css-1fz9kzx');
+        const backButton3 = document.querySelector('button.chakra-button.css-lo5yay');
 
         // Check if any of the buttons exist and if their inner text is "Back to Quests", then click on it
         if (backButton1 && backButton1.textContent.trim() === "Back to Quests") {
@@ -105,17 +105,17 @@
         }
     }
 
-    function clickSubmitButton() {
+//    function clickSubmitButton() {
         // Find the button with the text "Submit"
-        const SubmitButton = document.querySelector('button.chakra-button.css-lb13n9');
+//        const SubmitButton = document.querySelector('button.chakra-button.css-lb13n9');
 
         // If the button exists and its inner text is "Submit", click on it
-        if (SubmitButton && SubmitButton.textContent.trim() === "Submit") {
-            console.log('Clicking on "Submit" button...');
-            SubmitButton.removeAttribute('disabled');
-            SubmitButton.click();
-        }
-    }
+//        if (SubmitButton && SubmitButton.textContent.trim() === "Submit") {
+//            console.log('Clicking on "Submit" button...');
+//            SubmitButton.removeAttribute('disabled');
+//            SubmitButton.click();
+//        }
+//    }
 
 
 
@@ -132,7 +132,7 @@
                 if (answerInput) {
                     console.log(`Filling answer for ${taskTitle}: ${answer}`);
                     answerInput.value = answer;
-                    clickSubmitButton();
+                    setTimeout(clickSubmitButton, 4000);
                 } else {
                     console.log('Input field not found');
                 }
@@ -145,7 +145,6 @@
 
     // Run the functions initially
     fillTweetURLInput();
-    clickSubmitButton();
     clickBackToQuestsButton();
     clickClaimButton();
     headToXQuest();
@@ -154,7 +153,6 @@
     // Check for the buttons every 2 seconds and click on them if they appear
     setInterval(() => {
         fillTweetURLInput();
-        clickSubmitButton()
         clickBackToQuestsButton();
         clickClaimButton();
         headToXQuest();
