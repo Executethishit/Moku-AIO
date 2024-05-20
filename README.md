@@ -8,7 +8,7 @@ MOKU AIO is a userscript designed to automate specific actions on [Moku](https:/
 
 1. Install a userscript manager extension like [Tampermonkey](https://www.tampermonkey.net/) for your browser.
 2. Click on the Tampermonkey icon and select "Create a new script".
-3. Copy the contents of the `MOKU AIO-0.15.9.user.js` file into the new script.
+3. Copy the contents of the `MOKU AIO.js` file into the new script.
 4. Save the script.
 
 ## Usage
