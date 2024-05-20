@@ -48,9 +48,7 @@ The script automates the following actions:
     'use strict';
 
     const taskAnswers = {
-        "Learning Spells I": "Triple Bash ",
-        "Learning Spells II": "Frost Diver ",
-        "Learning Spells III": "Charge Arrow  ",
+        "Find Ragmon": "10 ",
         "View and Like Ragnarok: Monster World's Trailer": "25 ",
         "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
         "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
@@ -63,7 +61,8 @@ The script automates the following actions:
         "Subscribe Ragnarok: Monster World Youtube channel": "1 ",
         "Follow Ragnarok: Monster World on Medium": "Introducing the Genesis Tamer ",
         "Follow Ragnarok: Monster World on Facebook": "Ragmon.gg ",
-        "Introducing Pecopeco I": "Picky "
+        "Introducing Pecopeco I": "Picky ",
+        "Introducing Pecopeco II": "Knight "
     };
 
     // Function to fill the tweet URL input
