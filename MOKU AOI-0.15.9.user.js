@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MOKU AOI
 // @namespace    http://tampermonkey.net/
-// @version      0.15.9
+// @version      0.15.10
 // @description  try to take over the world!
 // @author       Trojan10
 // @match        *://*/*
@@ -10,10 +10,13 @@
 // ==/UserScript==
 
 
+
+
 (function() {
     'use strict';
 
     const taskAnswers = {
+        "Find Ragmon": "10 ",
         "View and Like Ragnarok: Monster World's Trailer": "25 ",
         "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
         "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
@@ -26,7 +29,8 @@
         "Subscribe Ragnarok: Monster World Youtube channel": "1 ",
         "Follow Ragnarok: Monster World on Medium": "Introducing the Genesis Tamer ",
         "Follow Ragnarok: Monster World on Facebook": "Ragmon.gg ",
-        "Introducing Pecopeco I": "Picky "
+        "Introducing Pecopeco I": "Picky ",
+        "Introducing Pecopeco II": "Knight "
     };
 
     // Function to fill the tweet URL input
@@ -158,4 +162,5 @@
         headToXQuest();
         handleRagmonLoreTasks();
     }, 1000);
+    console.log('Join Discord: https://discord.gg/mmW2RsrCWF');
 })();
