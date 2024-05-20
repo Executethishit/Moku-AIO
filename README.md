@@ -48,6 +48,9 @@ The script automates the following actions:
     'use strict';
 
     const taskAnswers = {
+        "Learning Spells I": "Triple Bash ",
+        "Learning Spells II": "Frost Diver ",
+        "Learning Spells III": "Charge Arrow  ",
         "View and Like Ragnarok: Monster World's Trailer": "25 ",
         "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
         "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
