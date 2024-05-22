@@ -17,26 +17,29 @@
 (function() {
     'use strict';
 
-    const taskAnswers = {
-        "Find Ragmon": "10 ",
-        "Learning Spells I": "Triple Bash ",
-        "Learning Spells II": "Frost Diver ",
-        "Learning Spells III": "Charge Arrow ",
-        "View and Like Ragnarok: Monster World's Trailer": "25 ",
-        "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
-        "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
-        "Ragmon Lore I": "Novice ",
-        "Ragmon Lore II": "lightening bolt ",
-        "Ragmon Lore III": "magician ",
-        "Ragmon Love IV": "brandish scythe ",
-        "Ragmon Lore V": "cell division ",
-        "Ragmon Lore VI": "Odin's sweat ",
-        "Subscribe Ragnarok: Monster World Youtube channel": "1 ",
-        "Follow Ragnarok: Monster World on Medium": "Introducing the Genesis Tamer ",
-        "Follow Ragnarok: Monster World on Facebook": "Ragmon.gg ",
-        "Introducing Pecopeco I": "Picky ",
-        "Introducing Pecopeco II": "Knight "
-    };
+
+        const taskAnswers = {
+            "Ragmon's AMA on Discord": "Ragmon's AMA on Discord ",
+            "Find Ragmon": "10 ",
+            "Learning Spells I": "Triple Bash ",
+            "Learning Spells II": "Frost Diver ",
+            "Learning Spells III": "Charge Arrow ",
+            "View and Like Ragnarok: Monster World's Trailer": "25 ",
+            "Dive Deeper Into Ragmon's Whitepaper": "Capped Cycle Currency ",
+            "Dive Deeper Into Ragmon's Whitepaper II": "2 ",
+            "Ragmon Lore I": "Novice ",
+            "Ragmon Lore II": "lightening bolt ",
+            "Ragmon Lore III": "magician ",
+            "Ragmon Love IV": "brandish scythe ",
+            "Ragmon Lore V": "cell division ",
+            "Ragmon Lore VI": "Odin's sweat ",
+            "Subscribe Ragnarok: Monster World Youtube channel": "1 ",
+            "Follow Ragnarok: Monster World on Medium": "Introducing the Genesis Tamer ",
+            "Follow Ragnarok: Monster World on Facebook": "Ragmon.gg ",
+            "Introducing Pecopeco I": "Picky ",
+            "Introducing Pecopeco II": "Knight "
+            "Introducing Pecopeco III": "D ",
+        };
 
     // Function to fill the tweet URL input
     function fillTweetURLInput() {
