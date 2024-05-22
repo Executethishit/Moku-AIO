@@ -48,7 +48,7 @@ The script automates the following actions:
     'use strict';
 
     const taskAnswers = {
-            "Ragmon's AMA on Discord": "Ragmon's AMA on Discord ",
+            "Ragmon's AMA on Discord": "AMA RAGMON WORLD ",
             "Find Ragmon": "10 ",
             "Learning Spells I": "Triple Bash ",
             "Learning Spells II": "Frost Diver ",
