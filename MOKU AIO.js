@@ -38,7 +38,7 @@
             "Follow Ragnarok: Monster World on Facebook": "Ragmon.gg ",
             "Introducing Pecopeco I": "Picky ",
             "Introducing Pecopeco II": "Knight "
-            "Introducing Pecopeco III": "D ",
+            "Introducing Pecopeco III": "D "
         };
 
     // Function to fill the tweet URL input
